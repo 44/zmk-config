@@ -1,26 +1,33 @@
 /*
- * Copyright (c) 2021 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
+* Copyright (c) 2020 The ZMK Contributors
+*
+* SPDX-License-Identifier: MIT
+*/
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 
 / {
-
-	keymap {
-		compatible = "zmk,keymap";
-
-		// This is a sample keymap intended to be replaced with your own
-		base_layer {
-			bindings = <
-				&kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I     &kp O     &kp P
-				&kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K     &kp L     &kp SEMI
-				&kp Z     &kp X     &kp C     &kp V     &kp B     &kp N     &kp M     &kp COMMA &kp DOT   &kp SLASH
-				                              &kp TAB   &kp BSPC  &kp SPACE &kp ENTER
-			>;
-		};
-
-	};
+  keymap {
+    compatible = "zmk,keymap";
+layer0 {
+        bindings = <
+        &kp J &kp G &kp M &kp P &kp V &kp F20 &kp G &kp Z &kp DOT &kp SLASH &kp R &kp S &kp N &kp T &kp W &kp BACKSPACE &kp H &kp A &kp O &kp I &kp X &kp C &kp L &kp D &kp B &kp F20 &kp F &kp U &kp K &kp Y &lt 2 ESCAPE &lt 1 E &mt LEFT_SHIFT SPACE &lt 3 TAB
+        >;
+      };layer1 {
+        bindings = <
+        &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp HOME &kp UP &kp END &kp PAGE_UP OSM(MOD_LSFT) OSM(MOD_LCTL) OSM(MOD_LALT) OSM(MOD_LGUI) &kp F20 LCTL(KC_BSPC) &kp LEFT &kp DOWN &kp RIGHT &kp PAGE_DOWN &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp ENTER &kp F20
+        >;
+      };layer2 {
+        bindings = <
+        &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp GRAVE &kp F20 &kp F20 &kp F20 &kp F20 &kp MINUS &kp EQUAL &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp SEMICOLON &kp SINGLE_QUOTE &kp COMMA &kp DOT &kp SLASH &kp F20 &kp F20 LSFT(KC_NO) &kp F20
+        >;
+      };layer3 {
+        bindings = <
+        HYPR(KC_1) HYPR(KC_2) HYPR(KC_3) HYPR(KC_4) HYPR(KC_5) HYPR(KC_6) HYPR(KC_7) HYPR(KC_8) HYPR(KC_9) HYPR(KC_0) &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 HYPR(KC_LEFT) HYPR(KC_RGHT) &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20
+        >;
+      };
+  };
 };
