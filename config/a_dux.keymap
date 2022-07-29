@@ -22,11 +22,11 @@ layer0 {
         >;
       };layer2 {
         bindings = <
-        &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp GRAVE &trans &trans &trans &trans &kp MINUS &kp EQUAL &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH &trans &trans &trans &trans &trans &kp SEMICOLON &kp SINGLE_QUOTE &kp COMMA &kp DOT &kp SLASH &trans &trans LEFT_SHIFT &trans
+        &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp GRAVE &trans &trans &trans &trans &kp MINUS &kp EQUAL &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH &trans &trans &trans &trans &trans &kp SEMICOLON &kp SINGLE_QUOTE &kp COMMA &kp DOT &kp SLASH &trans &trans &kp LEFT_SHIFT &trans
         >;
       };layer3 {
         bindings = <
-        LS(LA(LG(LC(N1)))) LS(LA(LG(LC(N2)))) LS(LA(LG(LC(N3)))) LS(LA(LG(LC(N4)))) LS(LA(LG(LC(N5)))) LS(LA(LG(LC(N6)))) LS(LA(LG(LC(N7)))) LS(LA(LG(LC(N8)))) LS(LA(LG(LC(N9)))) LS(LA(LG(LC(N0)))) &trans &trans &trans &trans &trans &trans LS(LA(LG(LC(LEFT)))) LS(LA(LG(LC(RIGHT)))) &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        &kp LS(LA(LG(LC(N1)))) &kp LS(LA(LG(LC(N2)))) &kp LS(LA(LG(LC(N3)))) &kp LS(LA(LG(LC(N4)))) &kp LS(LA(LG(LC(N5)))) &kp LS(LA(LG(LC(N6)))) &kp LS(LA(LG(LC(N7)))) &kp LS(LA(LG(LC(N8)))) &kp LS(LA(LG(LC(N9)))) &kp LS(LA(LG(LC(N0)))) &trans &trans &trans &trans &trans &trans &kp LS(LA(LG(LC(LEFT)))) &kp LS(LA(LG(LC(RIGHT)))) &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
         >;
       };
   };
