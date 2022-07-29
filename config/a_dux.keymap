@@ -18,15 +18,15 @@ layer0 {
         >;
       };layer1 {
         bindings = <
-        &trans &trans &trans &trans &trans &trans &kp HOME &kp UP &kp END &kp PAGE_UP OSM(MOD_LSFT) OSM(MOD_LCTL) OSM(MOD_LALT) OSM(MOD_LGUI) &trans LCTL(KC_BSPC) &kp LEFT &kp DOWN &kp RIGHT &kp PAGE_DOWN &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp ENTER &trans
+        &trans &trans &trans &trans &trans &trans &kp HOME &kp UP &kp END &kp PAGE_UP &sk LSHIFT &sk LCTL &sk LALT &sk LGUI &trans &kp LC(BSPC) &kp LEFT &kp DOWN &kp RIGHT &kp PAGE_DOWN &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp ENTER &trans
         >;
       };layer2 {
         bindings = <
-        &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp GRAVE &trans &trans &trans &trans &kp MINUS &kp EQUAL &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH &trans &trans &trans &trans &trans &kp SEMICOLON &kp SINGLE_QUOTE &kp COMMA &kp DOT &kp SLASH &trans &trans LSFT(KC_NO) &trans
+        &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp GRAVE &trans &trans &trans &trans &kp MINUS &kp EQUAL &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH &trans &trans &trans &trans &trans &kp SEMICOLON &kp SINGLE_QUOTE &kp COMMA &kp DOT &kp SLASH &trans &trans LEFT_SHIFT &trans
         >;
       };layer3 {
         bindings = <
-        HYPR(KC_1) HYPR(KC_2) HYPR(KC_3) HYPR(KC_4) HYPR(KC_5) HYPR(KC_6) HYPR(KC_7) HYPR(KC_8) HYPR(KC_9) HYPR(KC_0) &trans &trans &trans &trans &trans &trans HYPR(KC_LEFT) HYPR(KC_RGHT) &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        LS(LA(LG(LC(N1)))) LS(LA(LG(LC(N2)))) LS(LA(LG(LC(N3)))) LS(LA(LG(LC(N4)))) LS(LA(LG(LC(N5)))) LS(LA(LG(LC(N6)))) LS(LA(LG(LC(N7)))) LS(LA(LG(LC(N8)))) LS(LA(LG(LC(N9)))) LS(LA(LG(LC(N0)))) &trans &trans &trans &trans &trans &trans LS(LA(LG(LC(LEFT)))) LS(LA(LG(LC(RIGHT)))) &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
         >;
       };
   };
