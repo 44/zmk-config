@@ -16,6 +16,30 @@
 };
 
 / {
+  combos {
+      compatible = "zmk,combos";
+      combo_esc {
+          timeout-ms = <50>;
+          key-positions = <5 6>;
+          bindings = <&kp ESC>;
+      };
+      combo_tab {
+          timeout-ms = <50>;
+          key-positions = <6 7>;
+          bindings = <&kp TAB>;
+      };
+      combo_f12 {
+          timeout-ms = <50>;
+          key-positions = <5 6 7>;
+          bindings = <&kp F12>;
+      };
+      combo_bootloader {
+          timeout-ms = <50>;
+          key-positions = <0 10 20>;
+          bindings = <&bootloader>;
+      };
+  };
+
   keymap {
     compatible = "zmk,keymap";
 
@@ -24,7 +48,7 @@ layer0 {
         &kp J   &kp G   &kp M   &kp P   &kp V         &kp GRAVE     &kp Q   &kp Z   &kp DOT &kp FSLH
         &kp R   &kp S   &kp N   &kp T   &kp W         &kp BSPC      &kp H   &kp A   &kp O   &kp I
         &kp X   &kp C   &kp L   &kp D   &kp B         &kp BSLH      &kp F   &kp U   &kp K   &kp Y
-                         &lt 2 TAB    &lt 1 E         &mt LSHFT SPACE  &lt 3 COMMA
+                         &lt 2 SEMI   &lt 1 E         &mt LSHFT SPACE  &lt 3 COMMA
         >;
       };
 
