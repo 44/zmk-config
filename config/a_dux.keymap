@@ -54,9 +54,9 @@ layer0 {
 
 layer1 {
         bindings = <
-        &kp LC(D)     &caps_word &kp LCS(C) &kp LCS(V) &none         &kp INS       &kp HOME  &kp KC(U) &kp END    &kp PG_UP
+        &kp LC(D)     &caps_word &kp LCS(C) &kp LCS(V) &none         &kp INS       &kp HOME  &kp LC(U) &kp END    &kp PG_UP
         &kp LGUI      &sk LALT   &sk LCTL   &sk LSHFT  &sk LGUI      &kp LC(BSPC)  &kp LEFT  &kp UP    &kp RIGHT  &kp PG_DN
-        &kp LG(SPACE) &none      &none      &none      &none         &kp DEL       &kp LC(A) &kp DOWN  &kp LC(E)  &kp L(W)
+        &kp LG(SPACE) &none      &none      &none      &none         &kp DEL       &kp LC(A) &kp DOWN  &kp LC(E)  &kp LC(W)
                                             &none      &trans        &kp ENTER     &trans
         >;
       };
