@@ -54,9 +54,9 @@ layer0 {
 
 layer1 {
         bindings = <
-        &kp LC(D)     &caps_word &kp LCS(C) &kp LCS(V) &none         &kp INS       &kp HOME  &kp LC(U) &kp END    &kp PG_UP
+        &kp LC(D)     &caps_word &kp LC(H)  &kp LC(U)  &kp LC(C)     &kp INS       &kp HOME  &kp LC(R) &kp END    &kp PG_UP
         &kp LGUI      &sk LALT   &sk LCTL   &sk LSHFT  &sk LGUI      &kp LC(BSPC)  &kp LEFT  &kp UP    &kp RIGHT  &kp PG_DN
-        &kp LG(SPACE) &none      &none      &none      &none         &kp DEL       &kp LC(A) &kp DOWN  &kp LC(E)  &kp LC(W)
+        &kp LG(SPACE) &kp LC(T)  &kp LCS(C) &kp LCS(V) &kp LC(B)     &kp DEL       &kp LC(A) &kp DOWN  &kp LC(E)  &kp LC(W)
                                             &none      &trans        &kp ENTER     &trans
         >;
       };
@@ -64,7 +64,7 @@ layer1 {
 layer2 {
         bindings = <
         &none       &none     &none     &none     &none         &none         &kp N1    &kp N2    &kp N3    &none
-        &kp LGUI    &kp LALT  &kp LCTL  &kp LSHFT &kp LGUI      &none         &kp N4    &kp N5    &kp N6    &none
+        &kp LGUI    &kp LALT  &kp LCTL  &kp LSHFT &kp LGUI      &kp BSPC      &kp N4    &kp N5    &kp N6    &none
         &none       &none     &none     &none     &none         &none         &kp N7    &kp N8    &kp N9    &none
                                         &trans    &none         &kp N0        &none
         >;
@@ -72,10 +72,10 @@ layer2 {
 
 layer3 {
         bindings = <
-        &kp LT      &kp GT    &kp MINUS &kp EQUAL &none         &none         &none     &none     &none     &none
-        &kp LPAR    &kp RPAR  &kp LBKT  &kp RBKT  &none         &kp RGUI      &kp RSHFT &kp RCTL  &kp RALT  &kp RGUI
-        &none       &none     &kp SEMI  &kp APOS  &none         &none         &none     &none     &none     &none
-                                        &none     &none         &kp N0        &trans
+        &none       &none     &kp LPAR  &kp RPAR  &none         &none         &none     &none     &none     &none
+        &none       &none     &kp LBKT  &kp RBKT  &kp MINUS     &kp BSPC      &kp RSHFT &kp RCTL  &kp RALT  &kp RGUI
+        &none       &none     &kp LT    &kp GT    &kp EQUAL     &none         &none     &none     &none     &none
+                                        &none     &none         &none         &trans
         >;
       };
 
